@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="calculadora.MainPage">
+
+    <StackLayout>
+        <Label Text="CALCULADORA" Margin="15" FontSize="Title" FontAttributes="bold" VerticalOptions="Center" HorizontalOptions="Center" ScaleY="2" ScaleX="2" />
+
+        <Entry x:Name="txttotal"/>
+        <Entry x:Name="txtnumero1" Placeholder=" Ingrese el primer numero"  Keyboard="Numeric" FontSize="Body" BackgroundColor="Black" Margin="20" />
+
+
+        <Entry x:Name="txtnumero2" Placeholder=" Ingrese el segundo numero" Keyboard="Numeric" FontSize="Body" BackgroundColor="Black" Margin="20"/>
+
+        <Button x:Name="btnsumar" Text="suma" Clicked="btnsuma_Clicked" BackgroundColor="#ffe674" TextColor="Black" FontSize="Body" Margin="15" CornerRadius="20"  />
+
+        <Button x:Name="btnrestar" Text="resta" Clicked="btnresta_Clicked" BackgroundColor="#ffe674" TextColor="Black" FontSize="Body" Margin="15" CornerRadius="20"  />
+
+        <Button x:Name="btnmultiplicar" Text="multiplicar" Clicked="btnmultiplicacion_Clicked" BackgroundColor="#ffe674" TextColor="Black" FontSize="Body" Margin="15" CornerRadius="20" />
+
+        <Button x:Name="btndividir" Text="dividir" Clicked="btndivision_Clicked" BackgroundColor="#ffe674"  TextColor="Black" FontSize="Body" Margin="15" CornerRadius="20"  />
+    </StackLayout>
+
+</ContentPage>
